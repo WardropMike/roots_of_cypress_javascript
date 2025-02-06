@@ -1,6 +1,17 @@
 # Compiled class file
 *.class
 
+# Ignore node_modules
+node_modules/
+
+# Ignore Cypress cache
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Ignore environment files
+.env
+
 # Log file
 *.log
 
